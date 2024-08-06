@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"project_5_pixel_matlab_st\startup_stm32f103xb.o"
+"project_5_pixel_matlab_st\main.o"
+"project_5_pixel_matlab_st\gpio.o"
+"project_5_pixel_matlab_st\tim.o"
+"project_5_pixel_matlab_st\usart.o"
+"project_5_pixel_matlab_st\stm32f1xx_it.o"
+"project_5_pixel_matlab_st\stm32f1xx_hal_msp.o"
+"project_5_pixel_matlab_st\stm32f1xx_hal_gpio_ex.o"
+"project_5_pixel_matlab_st\stm32f1xx_hal_tim.o"
+"project_5_pixel_matlab_st\stm32f1xx_hal_tim_ex.o"
+"project_5_pixel_matlab_st\stm32f1xx_hal.o"
+"project_5_pixel_matlab_st\stm32f1xx_hal_rcc.o"
+"project_5_pixel_matlab_st\stm32f1xx_hal_rcc_ex.o"
+"project_5_pixel_matlab_st\stm32f1xx_hal_gpio.o"
+"project_5_pixel_matlab_st\stm32f1xx_hal_dma.o"
+"project_5_pixel_matlab_st\stm32f1xx_hal_cortex.o"
+"project_5_pixel_matlab_st\stm32f1xx_hal_pwr.o"
+"project_5_pixel_matlab_st\stm32f1xx_hal_flash.o"
+"project_5_pixel_matlab_st\stm32f1xx_hal_flash_ex.o"
+"project_5_pixel_matlab_st\stm32f1xx_hal_exti.o"
+"project_5_pixel_matlab_st\stm32f1xx_hal_uart.o"
+"project_5_pixel_matlab_st\system_stm32f1xx.o"
+--strict --scatter "project_5_pixel_matlab_st\project_5_pixel_matlab_st.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "project_5_pixel_matlab_st.map" -o project_5_pixel_matlab_st\project_5_pixel_matlab_st.axf
